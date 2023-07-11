@@ -9,3 +9,17 @@ abrir.addEventListener("click", () => {
 cerrar.addEventListener("click", () => {
     menuprincipal.classList.remove("visible");
 })
+
+function cargarm()
+{
+document.getElementById('btnma').style.display = "none";
+document.getElementById('textobio3').style.display = "grid";
+document.getElementById('cerrarm').style.display = "grid";
+
+}
+
+function cerrarm(){
+document.getElementById('cerrarm').style.display = "none";
+document.getElementById('textobio3').style.display = "none";
+document.getElementById('btnma').style.display = "block";
+}
